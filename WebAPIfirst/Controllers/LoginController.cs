@@ -31,7 +31,7 @@ namespace WebAPIfirst.Controllers
             if (count == 1)
                 msg = Request.CreateResponse(HttpStatusCode.OK, "SuccessFully Logined");
             else
-                msg = Request.CreateResponse(HttpStatusCode.NotFound, " Plazz Try again");
+                msg = Request.CreateResponse(HttpStatusCode.NotFound, " Plzz Try again");
             return msg;
         }
     }
